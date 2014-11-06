@@ -1,0 +1,19 @@
+<Alloy>
+	<TableViewRow id='listRow'>
+		<View id='rowContainer'>
+			<ImageView id='profilePic'></ImageView>
+			<Label id='profileName' text="Appcelerator"/>
+			<Label id='timeAgo' text="30 minutes ago" />
+			<Label id='status'>Having a great day working on Cross Platform Mobility!</Label>
+			<View id='grayLine' bottom='51'></View>
+			<View id='bottomActions'>
+				<View class='itemActionButton'>
+					<ImageView id='likeBtn' ></ImageView>
+				</View>
+				<View  class='itemActionButton'>
+					<ImageView id='commentBtn' ></ImageView>
+				</View>
+			</View>
+		</View>
+	</TableViewRow>
+</Alloy>

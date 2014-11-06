@@ -1,0 +1,35 @@
+<Alloy >
+	<Window class='container'>
+		<!-- Android has an Action Bar, so we will use the Menu instead of creating a new Navigation bar -->
+		<Menu platform="android">
+			<MenuItem title="Friends" />
+			<MenuItem title="Messages" />
+			<MenuItem title="Notifications" />
+		</Menu>
+		
+		<!-- Main Container for the Application View -->
+		<View id='page'>
+			
+			<!-- For iOS and MobileWeb, we will create a custom navigation bar so we can add buttons to it -->
+			<View id='navigationBar' platform="ios,mobileweb">
+				<View id='topActions'>
+					<ImageView class='topActionButton' id='friendsBtn' onClick='onFriendClick'></ImageView>
+					<ImageView class='topActionButton' id='messagesBtn' onClick='onMessageClick'></ImageView>
+					<ImageView class='topActionButton' id='notificationsBtn' onClick='onNotificationClick'></ImageView>
+				</View>
+			    <ImageView id='menubtn' onClick='showhidemenu'/>
+			    <ImageView id='logo' />		
+			</View>
+			<View id='menuBar'>
+				<View class='tButton'><ImageView id='statusBtn' onClick='onStatusBtnClick'></ImageView></View>
+				<View class='tButton'><ImageView id='photoBtn' onClick='onPhotoBtnClick'></ImageView></View>
+				<View class='tButton'><ImageView id='checkinBtn' onClick='onCheckinBtnClick'></ImageView></View>
+			</View>
+			<View id='mainWindow'>
+				<TableView id='mainList'> 
+					<Require src='tableViewRow'/>
+				</TableView>
+			</View>
+		</View>
+	</Window>
+</Alloy>

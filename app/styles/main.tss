@@ -1,0 +1,23 @@
+".button": {
+width:"100",
+height: "100"
+}
+"#btnProjects":{
+//backgroundImage:'/images/ProjectList.png'
+backgroundColor: "#f00"
+}
+
+"#btnNewProject":{
+//backgroundImage:'/images/AddProject.png'
+backgroundColor: "#ff0"
+}
+
+"#btnDoc":{
+//backgroundImage:'/images/ViewHSEDoc.png'
+backgroundColor: "#f0f"
+}
+
+"#btnCategories":{
+//backgroundImage:'/images/SafetyTopics.png'
+backgroundColor: "#00f"
+}

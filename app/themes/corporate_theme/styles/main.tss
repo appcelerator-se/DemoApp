@@ -1,0 +1,83 @@
+".container": {
+	backgroundColor:"white",
+	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT],
+	navBarHidden: true,
+	fullscreen:true,
+},
+".container[platform=android]":{
+	exitOnClose: true,
+},
+"#page":{
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	backgroundColor: "#d6d6d6",
+	left: 0,
+	layout: "vertical"
+},
+"#navigationBar":{
+	backgroundImage: "/images/iconBarBG.png",
+	width: Ti.UI.FILL,
+	height: "54dp",
+	top:0
+},
+"#menuBar":{
+	backgroundColor: "#f5f6f9",
+	width: Ti.UI.FILL,
+	height: "50dp",
+	layout: "horizontal"
+},
+"#mainWindow":{
+	height: Ti.UI.FILL,	
+	width: Ti.UI.FILL
+},
+"#topActions":{
+	width:"150dp",
+	height:"50dp",
+	layout:"horizontal"
+},
+".topActionButton":{
+	 height:"50dp",
+	 width:"50dp"
+},
+".tButton":{
+	width: "33%",
+	height: "50dp",
+	left:0
+},
+"#friendsBtn":{
+	image:"/images/friendsbtn.png" 
+},
+"#messagesBtn":{
+	image:"/images/messagesbtn.png" 
+},
+"#notificationsBtn":{
+	image:"/images/notificationsbtn.png" 
+},
+"#statusBtn":{
+	width: "73dp",
+	height: "19dp",
+	image: "/images/statusbtn.png"
+},
+"#photoBtn":{
+	width: "73dp",
+	height: "19dp",
+	image: "/images/photobtn.png"
+},
+"#checkinBtn":{
+	width: "73dp",
+	height: "19dp",
+	image: "/images/checkinbtn.png"
+},
+"#menubtn":{
+	left: 0,
+	width: "55dp",
+	height: "54dp",
+	image:"/images/menubtn.png"
+},
+"#logo":{
+	width: "45dp",
+	height: "45dp",
+	right: "5dp",
+	image:"/chatbtn.png"
+}
+

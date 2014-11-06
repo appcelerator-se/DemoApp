@@ -1,0 +1,11 @@
+{
+  "global": {
+    "theme": "corporate_theme"
+  },
+  "env:development": {},
+  "env:test": {},
+  "env:production": {},
+  "os:ios": {},
+  "os:android": {},
+  "dependencies": {}
+}
