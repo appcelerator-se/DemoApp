@@ -1,3 +1,4 @@
 # Build folder and log file
+Resources/
 build/
 build.log
